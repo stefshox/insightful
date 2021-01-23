@@ -4,6 +4,11 @@ _Tested on MacOS Big Sur, Ubuntu 18.04 (LTS) and Windows 10 Education Edition_
 
 A RESTful API that gives more insight on the information given from the SpaceX-API
 
+## Requirements
+
+1. Docker Engine for Linux / Docker desktop for MacOS and Windows
+2. docker-compose (for Linux) (version > 1.27.0)
+
 ## Usage  
 
 Start docker container with a python image and flask development server ("sudo" before command for Linux users if needed)
@@ -25,11 +30,6 @@ _On Windows:_
 ```  
 http://localhost:5000/
 ```
-
-## Requirements
-
-1. Docker Engine for Linux / Docker desktop for MacOS and Windows
-2. docker-compose (for Linux) (version > 1.27.0)
 
 ### General information
 
